@@ -4,6 +4,11 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "YouTube Transcript",
   description: "Fetch YouTube video transcripts with Apify.",
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+    apple: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({
